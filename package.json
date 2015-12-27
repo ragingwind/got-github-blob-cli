@@ -1,0 +1,49 @@
+{
+  "name": "got-github-blob-cli",
+  "version": "0.0.0",
+  "description": "Got a blob from github on CLI",
+  "license": "MIT",
+  "repository": "ragingwind/got-github-blob-cli",
+  "author": {
+    "name": "ragingwind",
+    "email": "ragingwind@gmail.com",
+    "url": "ragingwind.me"
+  },
+  "bin": {
+    "got-github-blob": "cli.js"
+  },
+  "engines": {
+    "node": ">=4.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "got-github-blob-cli",
+    "got-github-blob",
+    "github-blob",
+    "github"
+  ],
+  "dependencies": {
+    "got-github-blob": "^0.1.1",
+    "meow": "^3.4.2",
+    "url-regex": "^3.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.3.0",
+    "execa": "^0.1.1",
+    "pathize-github-url": "^0.1.0",
+    "rimraf": "^2.5.0",
+    "xo": "^0.10.0"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}

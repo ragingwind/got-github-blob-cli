@@ -1,0 +1,5 @@
+[
+	"https://raw.githubusercontent.com/ragingwind/mobile-chromeapp-starter-kit/patch/app.js",
+	"https://raw.githubusercontent.com/ragingwind/mobile-chromeapp-starter-kit/patch/gulpfile.js",
+	"https://github.com/ragingwind/mobile-chromeapp-starter-kit/blob/master/src/platform/config.xml"
+]
